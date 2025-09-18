@@ -22,7 +22,7 @@ export function MapContainer({ children, isDarkMode }: MapContainerProps) {
     if (mapRef.current && !window.googleMap) {
       const initMap = async () => {
         const loader = new Loader({
-          apiKey: "AIzaSyCrMtqPErZSyTRKLB_pClosV9CRIzVSbU0",
+          apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
           version: "weekly",
           libraries: ["places", "routes", "geocoding"],
           retries: 3,
